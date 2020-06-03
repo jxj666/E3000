@@ -1,5 +1,5 @@
 <!--
- * @LastEditTime: 2020-06-03 13:57:57
+ * @LastEditTime: 2020-06-03 14:28:16
  * @LastEditors: jinxiaojian
 -->
 
@@ -7,5 +7,4 @@
 
 e3000
 
-https://jxj322991.github.io/englist/
-.
+https://jxj322991.github.io/E3000/
