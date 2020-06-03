@@ -4,7 +4,7 @@
  * @Email: jinxiaojian@youxin.com
  * @LastEditors: jinxiaojian
  * @Date: 2019-03-18 11:37:34
- * @LastEditTime: 2020-06-03 13:59:30
+ * @LastEditTime: 2020-06-03 14:07:30
  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -24,26 +24,31 @@
     <div id="app" style="background: #eee; padding: 5vw;">
       <div
         style="
-          border: 1px solid #eee;
-          border-radius: 1vw;
+          border: 1px solid #ddd;
+          border-radius: 10px;
           position: fixed;
           top: 0;
           left: 0;
           right: 0;
           box-sizing: border-box;
+          background: #eee;
         "
       >
         <input
           type="text"
           v-model="search"
           style="
-            width: 100%;
-            padding: 1vw 0;
+            margin: 1vw;
+            width: 50%;
+            padding: 1vw;
             border: none;
             border-radius: 1vw;
             font-size: 30px;
           "
         />
+        <span>
+          {{re_arr.length}}
+        </span>
       </div>
       <div style="overflow: auto;">
         <div v-for="x,index in re_arr" style="float: left;">
